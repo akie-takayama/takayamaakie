@@ -44,12 +44,10 @@ public class ConditionalExpression {
 //		③もし変数 isTired が 0 であれば「私はとても元気です。」、そうでなければ「私は疲れています。」と表示する。
 //		※④は System.out.println() のカッコ内に条件演算子（三項演算子）を使って、一行で書いてください。
 		
-		int isTired =0;
+		int isTired =1;
 		String study ="カリキュラム";
 		if(isTired == 0) {
 			System.out.println("私はとても元気です。");
-		}else {
-			System.out.println("私は疲れています。");
 		}
 //		④もし変数 isTired が 0 であれば、変数 study を利用して「カリキュラムを続けます。」と表示する。
 		
