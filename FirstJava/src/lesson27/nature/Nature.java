@@ -1,44 +1,50 @@
 package lesson27.nature;
 
-import java.util.Scanner;        //scannerをimportする
-
-import lesson27.animal.Elephant; //ぞうクラスをimportする
+import lesson27.animal.Elephant;
 import lesson27.animal.Lion;     //ライオンクラスをimportする
-import lesson27.animal.Monkey;    //チンパンジークラスをimportする
-import lesson27.animal.Panda;    //パンダクラスをimportする
-import lesson27.animal.Parrot;    //シマウマクラスをimportする
-import lesson27.animal.Zebra;    //シマウマクラスをimportする
+import lesson27.animal.Monkey;
+import lesson27.animal.Panda;
+import lesson27.animal.Parrot;
+import lesson27.animal.Zebra;
 
 
 public class Nature {
-	public void exist() {                       //playメゾットで出力したい内容をまとめる
-		Scanner sc = new Scanner(System.in);
-		String inputName = sc.next();
-
-		Lion l1 = new Lion( inputName );  
+	public void exist() {                       //exitメゾットで出力したい内容をまとめる
+		Lion l1 = new Lion(null);  
 		System.out.println("—————");
 		l1.dispStatus();
-		
-		Elephant e1 = new Elephant( inputName );  
+
+	}
+	
+	public void exist2() {
+		Elephant e1 = new Elephant(null);  
 		System.out.println("—————");
 		e1.dispStatus();
 		
-		Panda p1 = new Panda( inputName );  
+	}
+	
+	public void exist3() {
+		Panda p1 = new Panda(null);  
 		System.out.println("—————");
 		p1.dispStatus();
-		
-		Monkey m1 = new Monkey( inputName );  
+	}
+	
+	public void exist4() {
+		Monkey m1 = new Monkey(null);  
 		System.out.println("—————");
 		m1.dispStatus();
-		
-		Zebra z1 = new Zebra( inputName );  
+	}
+	
+	public void exist5() {
+		Zebra z1 = new Zebra(null);  
 		System.out.println("—————");
 		z1.dispStatus();
-		
-		Parrot p2 = new Parrot( inputName );  
+	}
+	
+	public void exist6() {
+		Parrot p2 = new Parrot(null); 
 		System.out.println("—————");
 		p2.dispStatus();
-		
-		sc.close();
 	}
+	
 }
