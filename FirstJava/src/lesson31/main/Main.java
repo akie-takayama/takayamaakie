@@ -1,6 +1,6 @@
 package lesson31.main;
 
-class Main {
+class Main {                                                    //Mainクラス
 	  public static void main(String[] args) {
 	    Person person1 = new Person("鈴木","太郎", 20, 1.7,60); //Person1の値を設置
 	    person1.print();
